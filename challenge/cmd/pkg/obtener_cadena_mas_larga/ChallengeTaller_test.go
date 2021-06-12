@@ -11,7 +11,7 @@ var (
 )
 
 func TestObtenerCadenaMasLarga(t *testing.T) {
-	dadoUnaCadenaDeTexto("abcdefg")
+	dadoUnaCadenaDeTexto("abcdefgabc")
 	cuandoBuscoLaSubCadenaMasLarga()
 	verificoQueLaSubCadenaVale(t,7)
 }

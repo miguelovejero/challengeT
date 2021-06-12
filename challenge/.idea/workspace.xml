@@ -26,6 +26,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
   <component name="RecentsManager">
@@ -34,7 +35,7 @@
       <recent name="$PROJECT_DIR$/cmd" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Test.ChallengeTaller_test.go">
     <configuration name="go build challenge/cmd" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="challenge" />
       <working_directory value="$PROJECT_DIR$" />
@@ -44,8 +45,19 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="ChallengeTaller_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="challenge" />
+      <working_directory value="$PROJECT_DIR$/cmd/pkg/obtener_cadena_mas_larga" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <package value="challenge" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cmd/pkg/obtener_cadena_mas_larga/ChallengeTaller_test.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.ChallengeTaller_test.go" />
         <item itemvalue="Go Build.go build challenge/cmd" />
       </list>
     </recent_temporary>
@@ -53,5 +65,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/challenge$ChallengeTaller_test_go.out" NAME="ChallengeTaller_test.go Coverage Results" MODIFIED="1623528122279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

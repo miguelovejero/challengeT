@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	var cadena = "abcdefghijklmnopqrstuvwxy" //25
+	var cadena = "abcdeaaaaaabcdefgabc" //25
 	resultado := obtener_cadena_mas_larga.ObtenerSubCadenaMasLarga(cadena)
 	fmt.Println(resultado)
 }
