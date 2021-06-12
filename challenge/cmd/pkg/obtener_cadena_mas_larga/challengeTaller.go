@@ -1,6 +1,6 @@
 package obtener_cadena_mas_larga
 
-func ObtenerCadenaMasLarga(cadena string) int {
+func ObtenerSubCadenaMasLarga(cadena string) int {
 	var contador = 0
 	var mapa = make(map[string] int)
 
