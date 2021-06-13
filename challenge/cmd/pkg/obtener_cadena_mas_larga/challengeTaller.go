@@ -5,8 +5,8 @@ func ObtenerSubCadenaMasLarga(cadena string) int {
 	var mapa = make(map[string] int)
 
 	for _, l := range cadena {
-		_, err := mapa[string(l)]
-		if err {
+		_, exist := mapa[string(l)]
+		if exist {
 			actualizarContador( &contador, len(mapa) )
 			mapa = make(map[string] int)
 		}
